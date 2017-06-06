@@ -37,7 +37,7 @@ The array to sort.
 
 #### compare(a, b)
 
-Type: `Function`
+Type: `Function`</br>
 Default: `(a, b) => a - b`
 
 A function that defines the sort order by comparing two elements of `arr`:
