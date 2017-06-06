@@ -1,16 +1,16 @@
 {
-  "name": "zuhlektion-zort",
+  "name": "zuhlektion",
   "version": "0.0.0",
-  "description": "Simple selection sort",
+  "description": "Simple selection sort.",
   "license": "MIT",
-  "repository": "maxhallinan/zuhlektion-zort",
+  "repository": "maxhallinan/zuhlektion",
   "author": {
-    "name": "Maximum Hallinan",
+    "name": "Max Hallinan",
     "email": "maxhallinan@gmail.com",
     "url": "github.com/maxhallinan"
   },
   "engines": {
-    "node": ">=4"
+    "node": ">=6"
   },
   "scripts": {
     "test": "xo && ava"
@@ -19,7 +19,8 @@
     "index.js"
   ],
   "keywords": [
-    ""
+    "sort",
+    "selection sort"
   ],
   "dependencies": {},
   "devDependencies": {
