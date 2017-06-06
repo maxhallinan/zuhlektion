@@ -40,7 +40,8 @@ The array to sort.
 Type: `Function`</br>
 Default: `(a, b) => a - b`
 
-A function that defines the sort order by comparing two elements of `arr`:
+A function that takes two elements of `arr` and returns a number. The elements
+are sorted according to this number:
 
 - `compare(a, b) < 0`: `a` is sorted lower than `b`;
 - `compare(a, b) > 0`: `b` is sorted lower than `a`;
