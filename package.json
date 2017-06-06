@@ -1,0 +1,61 @@
+{
+  "name": "zuhlektion-zort",
+  "version": "0.0.0",
+  "description": "Simple selection sort",
+  "license": "MIT",
+  "repository": "maxhallinan/zuhlektion-zort",
+  "author": {
+    "name": "Maximum Hallinan",
+    "email": "maxhallinan@gmail.com",
+    "url": "github.com/maxhallinan"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    ""
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "ava": "^0.17.0",
+    "xo": "^0.17.0"
+  },
+  "xo": {
+    "esnext": true,
+    "globals": [
+      "afterEach",
+      "beforeEach",
+      "describe",
+      "it"
+    ],
+    "rules": {
+      "array-bracket-spacing": [
+        "error",
+        "always"
+      ],
+      "comma-dangle": [
+        "error",
+        "always"
+      ],
+      "unicorn/explicit-length-check": 0,
+      "new-cap": [
+        "error",
+        {
+          "capIsNew": false
+        }
+      ],
+      "no-self-compare": 1,
+      "object-curly-spacing": [
+        "error",
+        "always"
+      ]
+    },
+    "space": 2
+  }
+}
